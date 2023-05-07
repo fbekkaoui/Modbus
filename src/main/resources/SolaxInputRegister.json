@@ -1,0 +1,1613 @@
+[
+  {
+    "Register": "0x0000",
+    "Variable": "GridVoltage(X1)",
+    "W/R": "R",
+    "Decription": "GridVoltage",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0001",
+    "Variable": "GridCurrent(X1)",
+    "W/R": "R",
+    "Decription": "GridCurrent",
+    "Unit": "0.1A",
+    "Data format": "int16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0002",
+    "Variable": "GridPower(X1)",
+    "W/R": "R",
+    "Decription": "GridPower",
+    "Unit": "1W",
+    "Data format": "int16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0003",
+    "Variable": "PvVoltage1",
+    "W/R": "R",
+    "Decription": "PvVoltage1",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0004",
+    "Variable": "PvVoltage2",
+    "W/R": "R",
+    "Decription": "PvVoltage2",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0005",
+    "Variable": "PvCurrent1",
+    "W/R": "R",
+    "Decription": "PvCurrent1",
+    "Unit": "0.1A",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0006",
+    "Variable": "PvCurrent2",
+    "W/R": "R",
+    "Decription": "PvCurrent2",
+    "Unit": "0.1A",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0007",
+    "Variable": "GridFrequency(X1)",
+    "W/R": "R",
+    "Decription": "GridFrequency",
+    "Unit": "0.01Hz",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0008",
+    "Variable": "Temperature",
+    "W/R": "R",
+    "Decription": "radiator temperature",
+    "Unit": "1 Grad C",
+    "Data format": "int16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0009",
+    "Variable": "RunMode",
+    "W/R": "R",
+    "Decription": "Table 2-2 Run mode description",
+    "Unit": "—",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x000A",
+    "Variable": "Powerdc1",
+    "W/R": "R",
+    "Decription": "Powerdc1",
+    "Unit": "1W",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x000B",
+    "Variable": "Powerdc2",
+    "W/R": "R",
+    "Decription": "Powerdc2",
+    "Unit": "1W",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x000C",
+    "Variable": "TemperFaultValue",
+    "W/R": "R",
+    "Decription": "TemperFaultValue",
+    "Unit": "1 Grad C",
+    "Data format": "int16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x000D",
+    "Variable": "Pv1VoltFaultValue",
+    "W/R": "R",
+    "Decription": "Pv1VoltFaultValue",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x000E",
+    "Variable": "Pv2VoltFaultValue",
+    "W/R": "R",
+    "Decription": "Pv2VoltFaultValue",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x000F",
+    "Variable": "GfciFaultValue",
+    "W/R": "R",
+    "Decription": "GfciFaultValue",
+    "Unit": "1mA",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0010",
+    "Variable": "GridVoltFaultValue",
+    "W/R": "R",
+    "Decription": "GridVoltFaultValue",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0011",
+    "Variable": "GridFreqFaultValueT",
+    "W/R": "R",
+    "Decription": "GridFreqFaultValueT",
+    "Unit": "0.01Hz",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0012",
+    "Variable": "DciFaultValue",
+    "W/R": "R",
+    "Decription": "DciFaultValue",
+    "Unit": "1mA",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0013",
+    "Variable": "TimeCountDown",
+    "W/R": "R",
+    "Decription": "TimeCountDown",
+    "Unit": "1ms",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0014",
+    "Variable": "BatVoltage_Charge1",
+    "W/R": "R",
+    "Decription": "BatVoltage_Charge1",
+    "Unit": "0.1V",
+    "Data format": "int16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0015",
+    "Variable": "BatCurrent_Charge1",
+    "W/R": "R",
+    "Decription": "BatCurrent_Charge1",
+    "Unit": "0.1A",
+    "Data format": "int16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0016",
+    "Variable": "Batpower_Charge1",
+    "W/R": "R",
+    "Decription": "Batpower_Charge1",
+    "Unit": "1W",
+    "Data format": "int16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0017",
+    "Variable": "BMS_Connect_State",
+    "W/R": "R",
+    "Decription": "0:Disconnected",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "1:Connected",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x0018",
+    "Variable": "TemperatureBat",
+    "W/R": "R",
+    "Decription": "TemperatureBat",
+    "Unit": "1 Grad C",
+    "Data format": "int16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0019",
+    "Variable": "REV",
+    "W/R": "R",
+    "Decription": "REV",
+    "Unit": "",
+    "Data format": "uint16",
+    "Lenth": 3
+  },
+  {
+    "Register": "0x001C",
+    "Variable": "Battery Capacity",
+    "W/R": "R",
+    "Decription": "Battery capacity",
+    "Unit": "1%",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x001D",
+    "Variable": "OutputEnergy_Charge.LSB",
+    "W/R": "R",
+    "Decription": "OutputEnergy_Charge",
+    "Unit": "0.1kWh",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x001E",
+    "Variable": "OutputEnergy_Charge.MSB",
+    "W/R": "R",
+    "Decription": "OutputEnergy_Charge",
+    "Unit": "0.1kWh",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x001F",
+    "Variable": "REV",
+    "W/R": "R",
+    "Decription": "REV",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0020",
+    "Variable": "OutputEnergy_Charge_today",
+    "W/R": "R",
+    "Decription": "OutputEnergy_Charge_today",
+    "Unit": "0.1kWh",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0021",
+    "Variable": "InputEnergy_Charge.LSB",
+    "W/R": "R",
+    "Decription": "InputEnergy_Charge",
+    "Unit": "0.1kWh",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0022",
+    "Variable": "InputEnergy_Charge.MSB",
+    "W/R": "R",
+    "Decription": "InputEnergy_Charge",
+    "Unit": "0.1kWh",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0023",
+    "Variable": "InputEnergy_Charge_today",
+    "W/R": "R",
+    "Decription": "InputEnergy_Charge_today",
+    "Unit": "0.1kWh",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0024",
+    "Variable": "BMS ChargeMaxCurrent",
+    "W/R": "R",
+    "Decription": "BMS ChargeMaxCurrent (real time)",
+    "Unit": "0.1A",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0025",
+    "Variable": "BMS DischargeMaxCurrent",
+    "W/R": "R",
+    "Decription": "BMS DischargeMaxCurrent (real time)",
+    "Unit": "0.1A",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0026",
+    "Variable": "PowerToEV",
+    "W/R": "R",
+    "Decription": "PowerToEV (0x26:LSB,0x27:MSB)",
+    "Unit": "1W",
+    "Data format": "int32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x0028",
+    "Variable": "RefPowerToEV",
+    "W/R": "R",
+    "Decription": "RefPowerToEV",
+    "Unit": "1W",
+    "Data format": "int16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0029",
+    "Variable": "PvRef",
+    "W/R": "R",
+    "Decription": "0：No PV 1:with PV",
+    "Unit": "1W",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x002A",
+    "Variable": "REV",
+    "W/R": "R",
+    "Decription": "REV",
+    "Unit": "-",
+    "Data format": "uint6",
+    "Lenth": 24
+  },
+  {
+    "Register": "0x0040",
+    "Variable": "InvFaultMessage.LSB",
+    "W/R": "R",
+    "Decription": "Inverter error code  X1:Table2-4  X3:Table2-3",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0041",
+    "Variable": "InvFaultMessage.MSB",
+    "W/R": "R",
+    "Decription": "",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0042",
+    "Variable": "REV",
+    "W/R": "R",
+    "Decription": "REV",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0043",
+    "Variable": "Mgr FaultMessage",
+    "W/R": "R",
+    "Decription": "Table 2-5 Manager error code",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0044",
+    "Variable": "Bat_BMS_FaultMessage.LSB",
+    "W/R": "R",
+    "Decription": "Table 2-6 BMS error code",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0045",
+    "Variable": "Bat_BMS_FaultMessage.MSB",
+    "W/R": "R",
+    "Decription": "",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0046",
+    "Variable": "feedin_power",
+    "W/R": "R",
+    "Decription": "Feedin power is obtained from Meter or CT. (Postive mean generate power; Negative mean consumed power）(0x46:LSB,0x47:MSB)",
+    "Unit": "1W",
+    "Data format": "int32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x0048",
+    "Variable": "feedin_energy_total(meter)",
+    "W/R": "R",
+    "Decription": "energy to the grid (0x48:LSB,0x49:MSB)",
+    "Unit": "0.01kWh",
+    "Data format": "uint32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x004A",
+    "Variable": "consum_energy_total(meter)",
+    "W/R": "R",
+    "Decription": "energy form the grid (0x4A:LSB,0x4B:MSB)",
+    "Unit": "0.01kWh",
+    "Data format": "uint32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x004C",
+    "Variable": "Off-gridVoltage(X1)",
+    "W/R": "R",
+    "Decription": "Off-grid Voltage",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x004D",
+    "Variable": "Off-gridCurrent(X1)",
+    "W/R": "R",
+    "Decription": "Off-grid Current",
+    "Unit": "0.1A",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x004E",
+    "Variable": "Off-gridPower(X1)",
+    "W/R": "R",
+    "Decription": "Off-grid power",
+    "Unit": "1VA",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x004F",
+    "Variable": "Off-gridFrequency(X1)",
+    "W/R": "R",
+    "Decription": "Off-grid _Frequency",
+    "Unit": "0.01Hz",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0050",
+    "Variable": "Etoday_togrid",
+    "W/R": "R",
+    "Decription": "Today Energy (Inverter AC Port)",
+    "Unit": "0.1kWh",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0051",
+    "Variable": "Rev",
+    "W/R": "R",
+    "Decription": "Rev",
+    "Unit": "-",
+    "Data format": "uint6",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0052",
+    "Variable": "Etotal_togrid",
+    "W/R": "R",
+    "Decription": "Total Energy (Inverter AC Port) (0x52:LSB,0x53:MSB)",
+    "Unit": "0.1kWh",
+    "Data format": "uint32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x0054",
+    "Variable": "Lock State",
+    "W/R": "R",
+    "Decription": "0:locked 1:unlocked",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0055",
+    "Variable": "REV",
+    "W/R": "R",
+    "Decription": "REV",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Lenth": 17
+  },
+  {
+    "Register": "0x0066",
+    "Variable": "BusVolt",
+    "W/R": "R",
+    "Decription": "BusVolt",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0067",
+    "Variable": "wDcvFaultVal",
+    "W/R": "R",
+    "Decription": "wDcvFaultVal",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0068",
+    "Variable": "wOverLoadFaultval",
+    "W/R": "R",
+    "Decription": "wOverLoadFaultval",
+    "Unit": "1W",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0069",
+    "Variable": "wBatteryVoltFaultVal",
+    "W/R": "R",
+    "Decription": "wBatteryVoltFaultVal",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x006A",
+    "Variable": "GridVoltage_R(X3)",
+    "W/R": "R",
+    "Decription": "GridVoltage_R",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x006B",
+    "Variable": "GridCurrent_R(X3)",
+    "W/R": "R",
+    "Decription": "GridCurrent_R",
+    "Unit": "0.1A",
+    "Data format": "int16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x006C",
+    "Variable": "GridPower_R(X3)",
+    "W/R": "R",
+    "Decription": "GridPower_R",
+    "Unit": "1W",
+    "Data format": "int16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x006D",
+    "Variable": "GridFrequency_R(X3)",
+    "W/R": "R",
+    "Decription": "GridFrequency_R",
+    "Unit": "0.01Hz",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x006E",
+    "Variable": "GridVoltage_S(X3)",
+    "W/R": "R",
+    "Decription": "GridVoltage_S",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x006F",
+    "Variable": "GridCurrent_S(X3)",
+    "W/R": "R",
+    "Decription": "GridCurrent_S",
+    "Unit": "0.1A",
+    "Data format": "int16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0070",
+    "Variable": "GridPower_S(X3)",
+    "W/R": "R",
+    "Decription": "GridPower_S",
+    "Unit": "1W",
+    "Data format": "int16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0071",
+    "Variable": "GridFrequency_S(X3)",
+    "W/R": "R",
+    "Decription": "GridFrequency_S",
+    "Unit": "0.01Hz",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0072",
+    "Variable": "GridVoltage_T(X3)",
+    "W/R": "R",
+    "Decription": "GridVoltage_T",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0073",
+    "Variable": "GridCurrent_T(X3)",
+    "W/R": "R",
+    "Decription": "GridCurrent_T",
+    "Unit": "0.1A",
+    "Data format": "int16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0074",
+    "Variable": "GridPower_T(X3)",
+    "W/R": "R",
+    "Decription": "GridPower_T",
+    "Unit": "1W",
+    "Data format": "int16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0075",
+    "Variable": "GridFrequency_T(X3)",
+    "W/R": "R",
+    "Decription": "GridFrequency_T",
+    "Unit": "0.01Hz",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0076",
+    "Variable": "Off-grid_Volt_R(X3)",
+    "W/R": "R",
+    "Decription": "Off-grid_Volt_R",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0077",
+    "Variable": "Off-grid_Current_R(X3)",
+    "W/R": "R",
+    "Decription": "Off-grid_Current_R",
+    "Unit": "0.1A",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0078",
+    "Variable": "Off-grid_PowerActive_R(X3)",
+    "W/R": "R",
+    "Decription": "Off-grid_PowerActive_R",
+    "Unit": "1W",
+    "Data format": "int16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0079",
+    "Variable": "Off-grid_PowerS_R(X3)",
+    "W/R": "R",
+    "Decription": "Off-grid_PowerS_R",
+    "Unit": "1VA",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x007A",
+    "Variable": "Off-grid_Volt_S(X3)",
+    "W/R": "R",
+    "Decription": "Off-grid_Volt_S",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x007B",
+    "Variable": "Off-grid_Current_S(X3)",
+    "W/R": "R",
+    "Decription": "Off-grid_Current_S",
+    "Unit": "0.1A",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x007C",
+    "Variable": "Off-gridPowerActive_S(X3)",
+    "W/R": "R",
+    "Decription": "Off-gridPowerActive_S",
+    "Unit": "1W",
+    "Data format": "int16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x007D",
+    "Variable": "Off-gridPowerS_S(X3)",
+    "W/R": "R",
+    "Decription": "Off-gridPowerS_S",
+    "Unit": "1VA",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x007E",
+    "Variable": "Off-grid_Volt_T(X3)",
+    "W/R": "R",
+    "Decription": "Off-grid_Volt_T",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x007F",
+    "Variable": "Off-grid_Current_T(X3)",
+    "W/R": "R",
+    "Decription": "Off-grid_Current_T",
+    "Unit": "0.1A",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0080",
+    "Variable": "Off-gridPowerActive_T(X3)",
+    "W/R": "R",
+    "Decription": "Off-gridPowerActive_T",
+    "Unit": "1W",
+    "Data format": "int16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0081",
+    "Variable": "Off-gridPowerS_T(X3)",
+    "W/R": "R",
+    "Decription": "Off-gridPowerS_T",
+    "Unit": "1VA",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0082",
+    "Variable": "FeedinPower_Rphase(X3)",
+    "W/R": "R",
+    "Decription": "FeedinPower_Rphase (meter/CT) (082:LSB,0x83:MSB)",
+    "Unit": "1W",
+    "Data format": "int32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x0084",
+    "Variable": "FeedinPower_Sphase(X3)",
+    "W/R": "R",
+    "Decription": "FeedinPower_Sphase (meter/CT) (0x84:LSB,0x85:MSB)",
+    "Unit": "1W",
+    "Data format": "int32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x0086",
+    "Variable": "FeedinPower_Tphase(X3)",
+    "W/R": "R",
+    "Decription": "FeedinPower_Tphase (meter/CT) (0x86:LSB,0x87:MSB)",
+    "Unit": "1W",
+    "Data format": "int32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x0088",
+    "Variable": "On-gridRunTime",
+    "W/R": "R",
+    "Decription": "On-gridRunTime (0x88:LSB,0x89:MSB)",
+    "Unit": "0.1h",
+    "Data format": "int32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x008A",
+    "Variable": "Off-gridRunTime",
+    "W/R": "R",
+    "Decription": "Off-gridRunTime (0x8A:LSB,0x8B:MSB)",
+    "Unit": "0.1h",
+    "Data format": "int32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x008C",
+    "Variable": "REV",
+    "W/R": "R",
+    "Decription": "REV",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x008E",
+    "Variable": "Off-gridYieldTotal",
+    "W/R": "R",
+    "Decription": "Off-gridYieldTotal (0x8E:LSB,0x8F:MSB)",
+    "Unit": "0.1kWh",
+    "Data format": "uint32",
+    "Lenth": 2
+  },
+  {
+    "Register": "~0x008F",
+    "Variable": "Off-gridYieldTotal",
+    "W/R": "R",
+    "Decription": "Off-gridYieldTotal (0x8E:LSB,0x8F:MSB)",
+    "Unit": "0.1kWh",
+    "Data format": "uint32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x0090",
+    "Variable": "Off-gridYieldToday",
+    "W/R": "R",
+    "Decription": "Off-gridYieldToday",
+    "Unit": "0.1kWh",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0091",
+    "Variable": "EchargeToday",
+    "W/R": "R",
+    "Decription": "EchargeToday (Inverter AC Port)",
+    "Unit": "0.1kWh",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0092",
+    "Variable": "EchargeTotal",
+    "W/R": "R",
+    "Decription": "EchargeTotal (Inverter AC Port) (0x92:LSB,0x93:MSB)",
+    "Unit": "0.1kWh",
+    "Data format": "uint32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x0094",
+    "Variable": "SolarEnergyTotal",
+    "W/R": "R",
+    "Decription": "SolarEnergyTotal (0x94:LSB,0x95:MSB)",
+    "Unit": "0.1kWh",
+    "Data format": "uint32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x0096",
+    "Variable": "SolarEnergyToday",
+    "W/R": "R",
+    "Decription": "SolarEnergyToday",
+    "Unit": "0.1kWh",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0097",
+    "Variable": "REV",
+    "W/R": "R",
+    "Decription": "-",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0098",
+    "Variable": "feedin_energy_today",
+    "W/R": "R",
+    "Decription": "energy to the grid (meter) (LSB)",
+    "Unit": "0.01kWh",
+    "Data format": "uint32",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0099",
+    "Variable": "feedin_energy_today",
+    "W/R": "R",
+    "Decription": "energy to the grid (meter) (MSB)",
+    "Unit": "0.01kWh",
+    "Data format": "uint32",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x009A",
+    "Variable": "consum_energy_today",
+    "W/R": "R",
+    "Decription": "energy form the grid (meter) (LSB)",
+    "Unit": "0.01kWh",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x009B",
+    "Variable": "consum_energy_today",
+    "W/R": "R",
+    "Decription": "energy form the grid (meter) (MSB)",
+    "Unit": "0.01kWh",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x009C",
+    "Variable": "InvVoltR(X3)",
+    "W/R": "R",
+    "Decription": "InvVoltR(X3)",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x009D",
+    "Variable": "InvVoltS(X3)",
+    "W/R": "R",
+    "Decription": "InvVoltS(X3)",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x009E",
+    "Variable": "InvVoltT(X3)",
+    "W/R": "R",
+    "Decription": "InvVoltT(X3)",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x009F",
+    "Variable": "Rev",
+    "W/R": "R",
+    "Decription": "-",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Lenth": 12
+  },
+  {
+    "Register": "0x00A8",
+    "Variable": "feedin_power_Meter2",
+    "W/R": "R",
+    "Decription": "power to the grid (LSB)",
+    "Unit": "1W",
+    "Data format": "int32",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x00A9",
+    "Variable": "feedin_power_Meter2",
+    "W/R": "R",
+    "Decription": "power to the grid (MSB)",
+    "Unit": "1W",
+    "Data format": "int32",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x00AA",
+    "Variable": "feedin_energy_total_Meter2 (LSB)",
+    "W/R": "R",
+    "Decription": "energy to the grid",
+    "Unit": "0.01kWh",
+    "Data format": "uint32",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x00AB",
+    "Variable": "feedin_energy_total_Meter2 (MSB)",
+    "W/R": "R",
+    "Decription": "energy to the grid",
+    "Unit": "0.01kWh",
+    "Data format": "uint32",
+    "Lenth": 1
+  },
+  {
+    "Register": "",
+    "Variable": "consum_energy_total_Meter2",
+    "W/R": "R",
+    "Decription": "(0xAA:LSB,0xAB:MSB)",
+    "Unit": "0.01kWh",
+    "Data format": "uint32",
+    "Lenth": 2
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "energy form the grid",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x00AC",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "(0xAC:LSB,0xAD:MSB)",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x00AD",
+    "Variable": "consum_energy_total_Meter2",
+    "W/R": "R",
+    "Decription": "energy form the grid",
+    "Unit": "0.01kWh",
+    "Data format": "uint32",
+    "Lenth": 2
+  },
+  {
+    "Register": "",
+    "Variable": "feedin_energy_today_Meter2",
+    "W/R": "R",
+    "Decription": "(0xAC:LSB,0xAD:MSB)",
+    "Unit": "0.01kWh",
+    "Data format": "uint16",
+    "Lenth": 2
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "energy to the grid",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x00AE",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "(0xAE:LSB,0xAF:MSB)",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x00AF",
+    "Variable": "feedin_energy_today_Meter2",
+    "W/R": "R",
+    "Decription": "energy to the grid",
+    "Unit": "0.01kWh",
+    "Data format": "uint16",
+    "Lenth": 2
+  },
+  {
+    "Register": "",
+    "Variable": "consum_energy_today_Meter2",
+    "W/R": "R",
+    "Decription": "(0xAE:LSB,0xAF:MSB)",
+    "Unit": "0.01kWh",
+    "Data format": "uint16",
+    "Lenth": 2
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "energy form the grid",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x00B0",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "(0xB0:LSB,0xB1:MSB)",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x00B1",
+    "Variable": "consum_energy_today_Meter2",
+    "W/R": "R",
+    "Decription": "energy form the grid",
+    "Unit": "0.01kWh",
+    "Data format": "uint16",
+    "Lenth": 2
+  },
+  {
+    "Register": "",
+    "Variable": "FeedinPower_Rphase_Meter2",
+    "W/R": "R",
+    "Decription": "(0xB0:LSB,0xB1:MSB)",
+    "Unit": "1W",
+    "Data format": "int32",
+    "Lenth": 2
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "FeedinPower_Rphase(X3)",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x00B2",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "(0xB2:LSB,0xB3:MSB)",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x00B3",
+    "Variable": "FeedinPower_Rphase_Meter2",
+    "W/R": "R",
+    "Decription": "FeedinPower_Rphase(X3)",
+    "Unit": "1W",
+    "Data format": "int32",
+    "Lenth": 2
+  },
+  {
+    "Register": "",
+    "Variable": "FeedinPower_Sphase_Meter2",
+    "W/R": "R",
+    "Decription": "(0xB2:LSB,0xB3:MSB)",
+    "Unit": "1W",
+    "Data format": "int32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x00B4",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "FeedinPower_Sphase(X3)",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x00B5",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "(0xB4:LSB,0xB5:MSB)",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x00B6",
+    "Variable": "FeedinPower_Tphase_Meter2",
+    "W/R": "R",
+    "Decription": "FeedinPower_Tphase(X3)",
+    "Unit": "1W",
+    "Data format": "int32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x00B7",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "(0xB6:LSB,0xB7:MSB)",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x00B8",
+    "Variable": "Meter1CommunicationSate",
+    "W/R": "R",
+    "Decription": "0:Com Error 1:Normal",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x00B9",
+    "Variable": "Meter2CommunicationSate",
+    "W/R": "R",
+    "Decription": "0:Com Error 1:Normal",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x00BA",
+    "Variable": "Battery_Tem_High",
+    "W/R": "R",
+    "Decription": "Battery_Tem_High",
+    "Unit": "0.1℃",
+    "Data format": "int16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x00BB",
+    "Variable": "Battery_Tem_Low",
+    "W/R": "R",
+    "Decription": "Battery_Tem_Low",
+    "Unit": "0.1℃",
+    "Data format": "int16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x00BC",
+    "Variable": "Cell_Voltage_High",
+    "W/R": "R",
+    "Decription": "Cell_Voltage_High",
+    "Unit": "0.001V",
+    "Data format": "Uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x00BD",
+    "Variable": "Cell_Voltage_Low",
+    "W/R": "R",
+    "Decription": "Cell_Voltage_Low",
+    "Unit": "0.001V",
+    "Data format": "Uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x00BE",
+    "Variable": "Rev",
+    "W/R": "R",
+    "Decription": "-",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Lenth": 70
+  },
+  {
+    "Register": "~0x00FF",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x0100",
+    "Variable": "ModbusPowerControl",
+    "W/R": "R",
+    "Decription": "0:disable remote control",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "1:enable power control",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "2:enable electric quantity control",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "3:enable SOC target control",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x0101",
+    "Variable": "TargetFinishFlag",
+    "W/R": "R",
+    "Decription": "0:unfinished 1:finish",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x0102",
+    "Variable": "ActivePowerTarget",
+    "W/R": "R",
+    "Decription": "ActivePowerTarget",
+    "Unit": "1W",
+    "Data format": "int32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x0103",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x0104",
+    "Variable": "wReactivePowerTarget",
+    "W/R": "R",
+    "Decription": "wReactivePowerTarget",
+    "Unit": "1Var",
+    "Data format": "int32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x0105",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x0106",
+    "Variable": "wActivePowerReal",
+    "W/R": "R",
+    "Decription": "wActivePowerReal",
+    "Unit": "1W",
+    "Data format": "int32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x0107",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "(0x106:LSB,0x107:MSB)",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x0108",
+    "Variable": "wReactivePowerReal",
+    "W/R": "R",
+    "Decription": "wReactivePowerReal",
+    "Unit": "1Var",
+    "Data format": "int32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x0109",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "(0x108:LSB,0x109:MSB)",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x010A",
+    "Variable": "wActivePower_Upper",
+    "W/R": "R",
+    "Decription": "wActivePower_Upper",
+    "Unit": "1W",
+    "Data format": "int32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x010B",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "(0x10A:LSB,0x10B:MSB)",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x010C",
+    "Variable": "wActivePower_Lower",
+    "W/R": "R",
+    "Decription": "wActivePower_Lower",
+    "Unit": "1W",
+    "Data format": "int32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x010D",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "(0x10C:LSB,0x10D:MSB)",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x010E",
+    "Variable": "wReactivePowe_Upper",
+    "W/R": "R",
+    "Decription": "wReactivePowe_Upper (0x10E:LSB,0x10F:MSB)",
+    "Unit": "1Var",
+    "Data format": "int32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x010F",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x0110",
+    "Variable": "wReactivePower_Lower",
+    "W/R": "R",
+    "Decription": "wReactivePower_Lower",
+    "Unit": "1Var",
+    "Data format": "int32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x0111",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "(0x110:LSB,0x111:MSB)",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x0112",
+    "Variable": "TargetEnergy",
+    "W/R": "R",
+    "Decription": "TargetEnergy",
+    "Unit": "1Wh",
+    "Data format": "int32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x0113",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x0114",
+    "Variable": "Charge_Discharg_Power",
+    "W/R": "R",
+    "Decription": "Charge_Discharg_Power",
+    "Unit": "1W",
+    "Data format": "int32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x0115",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "(0x114:LSB,0x115:MSB)",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x0116",
+    "Variable": "ChargeableElectricCapacity",
+    "W/R": "R",
+    "Decription": "ChargeableElectricCapacity",
+    "Unit": "1Wh",
+    "Data format": "uint32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x0117",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "(0x116:LSB,0x117:MSB)",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x0118",
+    "Variable": "DischargeableElectricCapacity",
+    "W/R": "R",
+    "Decription": "DischargeableElectricCapacity",
+    "Unit": "1Wh",
+    "Data format": "uint32",
+    "Lenth": 2
+  },
+  {
+    "Register": "0x0119",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "(0x118:LSB,0x119:MSB)",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "0x011A",
+    "Variable": "Time_of_Duration",
+    "W/R": "R",
+    "Decription": "Time_of_Duration",
+    "Unit": "1s",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x011B",
+    "Variable": "TargetSoc",
+    "W/R": "R",
+    "Decription": "TargetSoc",
+    "Unit": "1%",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x011C",
+    "Variable": "SocUpper",
+    "W/R": "R",
+    "Decription": "SocUpper",
+    "Unit": "1%",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x011D",
+    "Variable": "SocLower",
+    "W/R": "R",
+    "Decription": "SocLower",
+    "Unit": "1%",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "0x011E",
+    "Variable": "RemoteCtrlTimeOut",
+    "W/R": "R",
+    "Decription": "RemoteCtrlTimeOut",
+    "Unit": "1s",
+    "Data format": "uint16",
+    "Lenth": 1
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "（4~65535）",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "Decription": "",
+    "Unit": "",
+    "Data format": "",
+    "Lenth": ""
+  }
+]

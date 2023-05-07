@@ -1,0 +1,2153 @@
+[
+  {
+    "Register": "0x0000",
+    "Variable": "InverterSN",
+    "W/R": "R",
+    "descripton": "14Chars，MSB=SN[14]",
+    "Unit": "14Char",
+    "Data format": "uint16",
+    "Length": 7
+  },
+  {
+    "Register": "~0x0006",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x0007",
+    "Variable": "FactoryName",
+    "W/R": "R",
+    "descripton": "14Chars，MSB=SN[14]",
+    "Unit": "14Char",
+    "Data format": "uint16",
+    "Length": 7
+  },
+  {
+    "Register": "~0x000D",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x000E",
+    "Variable": "ModuleName",
+    "W/R": "R",
+    "descripton": "14Chars，MSB=SN[14]",
+    "Unit": "14Char",
+    "Data format": "uint16",
+    "Length": 7
+  },
+  {
+    "Register": "~0x0014",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x0015",
+    "Variable": "REV",
+    "W/R": "R",
+    "descripton": "",
+    "Unit": "",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0016",
+    "Variable": "TimeStart",
+    "W/R": "R",
+    "descripton": "launch wait time",
+    "Unit": "1s",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0017",
+    "Variable": "ReconnectionTime",
+    "W/R": "R",
+    "descripton": "Reconnection Time",
+    "Unit": "1s",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0018",
+    "Variable": "REV",
+    "W/R": "R",
+    "descripton": "",
+    "Unit": "",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0019",
+    "Variable": "VacMinProtect",
+    "W/R": "R",
+    "descripton": "allowed minimum grid voltage",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x001A",
+    "Variable": "VacMaxProtect",
+    "W/R": "R",
+    "descripton": "allowed maximum grid voltage",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x001B",
+    "Variable": "FacMinProtect",
+    "W/R": "R",
+    "descripton": "allowed minimum grid frequency",
+    "Unit": "0.01Hz",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x001C",
+    "Variable": "FacMaxProtect",
+    "W/R": "R",
+    "descripton": "allowed maximum grid frequency",
+    "Unit": "0.01Hz",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x001D",
+    "Variable": "SafetyCode",
+    "W/R": "R",
+    "descripton": "Safety type",
+    "Unit": "—",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x001E",
+    "Variable": "MateBoxEnable",
+    "W/R": "R",
+    "descripton": "0:Disable 1:Enable",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x001F",
+    "Variable": "Grid10MinAvgProtect",
+    "W/R": "R",
+    "descripton": "10minutes over voltage protect",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0020",
+    "Variable": "VacMinSlowProtect",
+    "W/R": "R",
+    "descripton": "grid undervoltage protect value",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0021",
+    "Variable": "VacMaxSlowProtect",
+    "W/R": "R",
+    "descripton": "grid overvoltage protect value",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0022",
+    "Variable": "FacMinSlowProtect",
+    "W/R": "R",
+    "descripton": "grid underfrequency protect value",
+    "Unit": "0.01HZ",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0023",
+    "Variable": "FacMaxSlowProtect",
+    "W/R": "R",
+    "descripton": "grid overfrequency protect value",
+    "Unit": "0.01HZ",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0024",
+    "Variable": "REV",
+    "W/R": "R",
+    "descripton": "-",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0025",
+    "Variable": "PowerLimitsPercent",
+    "W/R": "R",
+    "descripton": "output power limits precent",
+    "Unit": "0~100",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0026",
+    "Variable": "PowerfactorMode",
+    "W/R": "R",
+    "descripton": "0: Off",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "1:Over Excited",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "2:Under Excited",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "3:Curve",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "4:Qu",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "5:Fix Q Power",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x0027",
+    "Variable": "PowerfactorData",
+    "W/R": "R",
+    "descripton": "Power factor data",
+    "Unit": 0.01,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0028",
+    "Variable": "PowerFactor_Curve_PF1",
+    "W/R": "R",
+    "descripton": "PowerFactor_Curve_PF1",
+    "Unit": 0.01,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0029",
+    "Variable": "PowerFactor_Curve_PF2",
+    "W/R": "R",
+    "descripton": "PowerFactor_Curve_PF2",
+    "Unit": 0.01,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x002A",
+    "Variable": "PowerFactor_Curve_PF3",
+    "W/R": "R",
+    "descripton": "PowerFactor_Curve_PF3",
+    "Unit": 0.01,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x002B",
+    "Variable": "PowerFactor_Curve_PF4",
+    "W/R": "R",
+    "descripton": "PowerFactor_Curve_PF4",
+    "Unit": 0.01,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x002C",
+    "Variable": "PowerFactor_Curve_Power1",
+    "W/R": "R",
+    "descripton": "PowerFactor_Curve_Power1",
+    "Unit": "1%",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x002D",
+    "Variable": "PowerFactor_Curve_Power2",
+    "W/R": "R",
+    "descripton": "PowerFactor_Curve_Power2",
+    "Unit": "1%",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x002E",
+    "Variable": "PowerFactor_Curve_Power3",
+    "W/R": "R",
+    "descripton": "PowerFactor_Curve_Power3",
+    "Unit": "1%",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x002F",
+    "Variable": "PowerFactor_Curve_Power4",
+    "W/R": "R",
+    "descripton": "PowerFactor_Curve_Power4",
+    "Unit": "1%",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0030",
+    "Variable": "PowerFactor_Curve_PfLockInPoint",
+    "W/R": "R",
+    "descripton": "PowerFactor_Curve_PfLockInPoint",
+    "Unit": 0.01,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0031",
+    "Variable": "PowerFactor_Curve_PfLockOutPoint",
+    "W/R": "R",
+    "descripton": "PowerFactor_Curve_PfLockOutPoint",
+    "Unit": 0.01,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0032",
+    "Variable": "PowerFactor_Curve_3Tau",
+    "W/R": "R",
+    "descripton": "PowerFactor_Curve_3Tau",
+    "Unit": "1s",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0033",
+    "Variable": "PowerFactor_Qu_VoltRatio1",
+    "W/R": "R",
+    "descripton": "PowerFactor_Qu_VoltRatio1",
+    "Unit": "1%",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0034",
+    "Variable": "PowerFactor_Qu_VoltRatio4",
+    "W/R": "R",
+    "descripton": "PowerFactor_Qu_VoltRatio4",
+    "Unit": "1%",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0035",
+    "Variable": "PowerFactor_Qu_QuResponseV1",
+    "W/R": "R",
+    "descripton": "PowerFactor_Qu_QuResponseV1",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0036",
+    "Variable": "PowerFactor_Qu_QuResponseV2",
+    "W/R": "R",
+    "descripton": "PowerFactor_Qu_QuResponseV2",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0037",
+    "Variable": "PowerFactor_Qu_QuResponseV3",
+    "W/R": "R",
+    "descripton": "PowerFactor_Qu_QuResponseV3",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0038",
+    "Variable": "PowerFactor_Qu_QuResponseV4",
+    "W/R": "R",
+    "descripton": "PowerFactor_Qu_QuResponseV4",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0039",
+    "Variable": "PowerFactor_Qu_K",
+    "W/R": "R",
+    "descripton": "PowerFactor_Qu_K",
+    "Unit": 0.1,
+    "Data format": "int16",
+    "Length": 1
+  },
+  {
+    "Register": "0x003A",
+    "Variable": "PowerFactor_Qu_3Tau",
+    "W/R": "R",
+    "descripton": "PowerFactor_Qu_3Tau",
+    "Unit": "1s",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x003B",
+    "Variable": "PowerFactor_Qu_QuDelayTimer",
+    "W/R": "R",
+    "descripton": "PowerFactor_Qu_QuDelayTimer",
+    "Unit": "1s",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x003C",
+    "Variable": "PowerFactor_Qu_QuLockEn",
+    "W/R": "R",
+    "descripton": "PowerFactor_Qu_QuLockEn",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "0:Disable 1:Enable",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x003D",
+    "Variable": "PowerFactor_Qu_QuLockIn",
+    "W/R": "R",
+    "descripton": "PowerFactor_Qu_QuLockIn",
+    "Unit": "1%",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x003E",
+    "Variable": "PowerFactor_Qu_QuLockOut",
+    "W/R": "R",
+    "descripton": "PowerFactor_Qu_QuLockOut",
+    "Unit": "1%",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x003F",
+    "Variable": "PowerFactor_FixQPower",
+    "W/R": "R",
+    "descripton": "PowerFactor_FixQPower",
+    "Unit": "1Var",
+    "Data format": "int16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0040",
+    "Variable": "PowerFactor_FixQPower_Max",
+    "W/R": "R",
+    "descripton": "PowerFactor_FixQPower_Max",
+    "Unit": "1Var",
+    "Data format": "int16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0041",
+    "Variable": "PowerFactor_FixQPower_Min",
+    "W/R": "R",
+    "descripton": "PowerFactor_FixQPower_Min",
+    "Unit": "1Var",
+    "Data format": "int16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0042",
+    "Variable": "Reserv",
+    "W/R": "R",
+    "descripton": "-",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Length": 59
+  },
+  {
+    "Register": "~0x007C",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x007D",
+    "Variable": "FirmwareVersion_DSP",
+    "W/R": "R",
+    "descripton": "FirmwareVersion_DSP",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x007E",
+    "Variable": "HardwareVersion_DSP",
+    "W/R": "R",
+    "descripton": "HardwareVersion_DSP",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x007F",
+    "Variable": "REV",
+    "W/R": "R",
+    "descripton": "REV",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Length": 3
+  },
+  {
+    "Register": "~0x0081",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x0082",
+    "Variable": "FirmwareVersion_ModbusRTU",
+    "W/R": "R",
+    "descripton": "Current version matches",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "FirmwareVersion_ARM",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x0083",
+    "Variable": "FirmwareVersion_ARM",
+    "W/R": "R",
+    "descripton": "FirmwareVersion_ARM",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0084",
+    "Variable": "FirmwareVersion_ARM_Bootloader",
+    "W/R": "R",
+    "descripton": "FirmwareVersion_ARM_Bootloader",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0085",
+    "Variable": "RTC-Seconds",
+    "W/R": "R",
+    "descripton": "RTC-Seconds",
+    "Unit": "—",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0086",
+    "Variable": "RTC-Minutes",
+    "W/R": "R",
+    "descripton": "RTC-Minutes",
+    "Unit": "—",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0087",
+    "Variable": "RTC-Hours",
+    "W/R": "R",
+    "descripton": "RTC-Hours",
+    "Unit": "—",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0088",
+    "Variable": "RTC-Days",
+    "W/R": "R",
+    "descripton": "RTC-Days",
+    "Unit": "—",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0089",
+    "Variable": "RTC-Months",
+    "W/R": "R",
+    "descripton": "RTC-Months",
+    "Unit": "—",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x008A",
+    "Variable": "RTC-Years",
+    "W/R": "R",
+    "descripton": "RTC-Years",
+    "Unit": "—",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x008B",
+    "Variable": "SolarChargerUseMode",
+    "W/R": "R",
+    "descripton": "SolarChargerUseMode:",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "0:Self use mode",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "1: Feedin Priority",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "2:Back up mode",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "3:Manual mode",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x008C",
+    "Variable": "Manual mode",
+    "W/R": "R",
+    "descripton": "0:Stop charge&discharge",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "1:Force charge",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "2:Force discharge",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x008D",
+    "Variable": "wBattery1_Type",
+    "W/R": "R",
+    "descripton": "0：Lead Acid 1：Lithium",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x008E",
+    "Variable": "Charge_floatVolt",
+    "W/R": "R",
+    "descripton": "Lead-acid battery charge_float voltage",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x008F",
+    "Variable": "Battery_DischargeCutVoltage",
+    "W/R": "R",
+    "descripton": "Lead-acid battery discharge cut-off voltage",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0090",
+    "Variable": "Battery_ChargeMaxCurrent",
+    "W/R": "R",
+    "descripton": "Lead-acid battery charge maximum current",
+    "Unit": "0.1A",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0091",
+    "Variable": "Battery_DischargeMaxCurrent",
+    "W/R": "R",
+    "descripton": "Lead-acid battery discharge maximum Current",
+    "Unit": "0.1A",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0092",
+    "Variable": "absorpt_voltage",
+    "W/R": "R",
+    "descripton": "Lead-acid battery absorpt_voltage",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0093",
+    "Variable": "SelfUse_Discharge_MinSoC",
+    "W/R": "R",
+    "descripton": "10% ~100%",
+    "Unit": "1%",
+    "Data format": "uint8(Hi)",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "SelfUse_NightCharge_Enable",
+    "W/R": "R",
+    "descripton": "Whether to allow electricity from the grid",
+    "Unit": 1,
+    "Data format": "uint8(Lo)",
+    "Length": ""
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "0:Disable 1:Enable",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x0094",
+    "Variable": "SelfUse_NightCharge_UpperSoC",
+    "W/R": "R",
+    "descripton": "This value will be enabled if",
+    "Unit": "1%",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "SelfUse_NightCharge_Enable is 1.",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "10%~100%",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x0095",
+    "Variable": "Feedin_NightCharge_UpperSoC",
+    "W/R": "R",
+    "descripton": "10%~100%",
+    "Unit": "1%",
+    "Data format": "uint8(Hi)",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "Feedin_Discharge_MinSoC",
+    "W/R": "R",
+    "descripton": "10%~100%",
+    "Unit": "1%",
+    "Data format": "uint8(Lo)",
+    "Length": ""
+  },
+  {
+    "Register": "0x0096",
+    "Variable": "BackUp_NightCharge_UpperSoC",
+    "W/R": "R",
+    "descripton": "30%~100%",
+    "Unit": "1%",
+    "Data format": "uint8(Hi)",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "BackUp_Discharge_MinSoC",
+    "W/R": "",
+    "descripton": "30%~100%",
+    "Unit": "1%",
+    "Data format": "uint8(Lo)",
+    "Length": ""
+  },
+  {
+    "Register": "0x0097",
+    "Variable": "ChargePeriod1_StartMinute",
+    "W/R": "R",
+    "descripton": "0-59",
+    "Unit": 1,
+    "Data format": "uint8(Hi)",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "ChargePeriod1_StartHour",
+    "W/R": "R",
+    "descripton": "0-23",
+    "Unit": 1,
+    "Data format": "uint8(Lo)",
+    "Length": ""
+  },
+  {
+    "Register": "0x0098",
+    "Variable": "ChargePeriod1_EndMinute",
+    "W/R": "R",
+    "descripton": "0-59",
+    "Unit": 1,
+    "Data format": "uint8(Hi)",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "ChargePeriod1_EndHour",
+    "W/R": "R",
+    "descripton": "0-23",
+    "Unit": 1,
+    "Data format": "uint8(Lo)",
+    "Length": ""
+  },
+  {
+    "Register": "0x0099",
+    "Variable": "DischargePeriod1_StartMinute",
+    "W/R": "R",
+    "descripton": "0-59",
+    "Unit": 1,
+    "Data format": "uint8(Hi)",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "DischargePeriod1_StartHour",
+    "W/R": "R",
+    "descripton": "0-23",
+    "Unit": 1,
+    "Data format": "uint8(Lo)",
+    "Length": ""
+  },
+  {
+    "Register": "0x009A",
+    "Variable": "DischargePeriod1_EndMinute",
+    "W/R": "R",
+    "descripton": "0-59",
+    "Unit": 1,
+    "Data format": "uint8(Hi)",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "DischargePeriod1_EndHour",
+    "W/R": "R",
+    "descripton": "0-23",
+    "Unit": 1,
+    "Data format": "uint8(Lo)",
+    "Length": ""
+  },
+  {
+    "Register": "0x009B",
+    "Variable": "Set_Chrg&DischrgPeriod2_Enable",
+    "W/R": "R",
+    "descripton": "Whether to use period 2.",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "0:Disable 1:Enable",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x009C",
+    "Variable": "ChargePeriod2_StartMinute",
+    "W/R": "R",
+    "descripton": "0-59",
+    "Unit": 1,
+    "Data format": "uint8(Hi)",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "ChargePeriod2_StartHour",
+    "W/R": "R",
+    "descripton": "0-23",
+    "Unit": 1,
+    "Data format": "uint8(Lo)",
+    "Length": ""
+  },
+  {
+    "Register": "0x009D",
+    "Variable": "ChargePeriod2_EndMinute",
+    "W/R": "R",
+    "descripton": "0-59",
+    "Unit": 1,
+    "Data format": "uint8(Hi)",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "ChargePeriod2_EndHour",
+    "W/R": "R",
+    "descripton": "0-23",
+    "Unit": 1,
+    "Data format": "uint8(Lo)",
+    "Length": ""
+  },
+  {
+    "Register": "0x009E",
+    "Variable": "DischargePeriod2_StartMinute",
+    "W/R": "R",
+    "descripton": "0-59",
+    "Unit": 1,
+    "Data format": "uint8(Hi)",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "DischargePeriod2_StartHour",
+    "W/R": "R",
+    "descripton": "0-23",
+    "Unit": 1,
+    "Data format": "uint8(Lo)",
+    "Length": ""
+  },
+  {
+    "Register": "0x009F",
+    "Variable": "DischargePeriod2_EndMinute",
+    "W/R": "R",
+    "descripton": "0-59",
+    "Unit": 1,
+    "Data format": "uint8(Hi)",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "Discharge Period2_EndHour",
+    "W/R": "R",
+    "descripton": "0-23",
+    "Unit": 1,
+    "Data format": "uint8(Lo)",
+    "Length": ""
+  },
+  {
+    "Register": "0x00A0",
+    "Variable": "REV",
+    "W/R": "R",
+    "descripton": "",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 6
+  },
+  {
+    "Register": "~0x00A5",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x00A6",
+    "Variable": "Safety_Mode",
+    "W/R": "R",
+    "descripton": "0:Only surport Italy",
+    "Unit": "1/0",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "1:Surport others except italy",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x00A7",
+    "Variable": "REV",
+    "W/R": "R",
+    "descripton": "",
+    "Unit": "",
+    "Data format": "",
+    "Length": 1
+  },
+  {
+    "Register": "0x00A8",
+    "Variable": "wBatteryDischargeBackupVoltage",
+    "W/R": "R",
+    "descripton": "wBatteryDischargeBackupVoltage",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00A9",
+    "Variable": "REV",
+    "W/R": "R",
+    "descripton": "-",
+    "Unit": "",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00AA",
+    "Variable": "Registration Code （for external module）",
+    "W/R": "R",
+    "descripton": "Registration Code[10]",
+    "Unit": "10char",
+    "Data format": "uint16",
+    "Length": 5
+  },
+  {
+    "Register": "~0x00AE",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x00AF",
+    "Variable": "REV",
+    "W/R": "R",
+    "descripton": "-",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Length": 6
+  },
+  {
+    "Register": "~0x00B4",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x00B5",
+    "Variable": "Export control_factory limit",
+    "W/R": "R",
+    "descripton": "Export control_factory limit",
+    "Unit": "1W",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00B6",
+    "Variable": "Export control user limit",
+    "W/R": "R",
+    "descripton": "Export_control user limit",
+    "Unit": "1W",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00B7",
+    "Variable": "Off-grid_Mute",
+    "W/R": "R",
+    "descripton": "0(off)/1(on)",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00B8",
+    "Variable": "Off-grid_MinSoC",
+    "W/R": "R",
+    "descripton": "Off-grid_MinSoC",
+    "Unit": "1%",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00B9",
+    "Variable": "REV",
+    "W/R": "R",
+    "descripton": "REV",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00BA",
+    "Variable": "Inverter Power Type",
+    "W/R": "R",
+    "descripton": "3000W/3680W/5000W",
+    "Unit": "1W",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "/6000W/7500W",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "(0:Error power type)",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x00BB",
+    "Variable": "Language",
+    "W/R": "R",
+    "descripton": "0:English 1:German",
+    "Unit": "0~5",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "2:French 3:Polish",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "4:Spanish 5:Portuguese",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "（Only surports English currently）",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x00BC",
+    "Variable": "EnableMPPT",
+    "W/R": "R",
+    "descripton": "1:enable 0:Disable",
+    "Unit": "0/1",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00BD",
+    "Variable": "wTuvp_L2",
+    "W/R": "R",
+    "descripton": "wTuvp_L2",
+    "Unit": "1ms",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00BE",
+    "Variable": "wTovp_L2",
+    "W/R": "R",
+    "descripton": "wTovp_L2",
+    "Unit": "1ms",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00BF",
+    "Variable": "wTufp_L2",
+    "W/R": "R",
+    "descripton": "wTufp_L2",
+    "Unit": "1ms",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00C0",
+    "Variable": "wTofp_L2",
+    "W/R": "R",
+    "descripton": "wTofp_L2",
+    "Unit": "1ms",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00C1",
+    "Variable": "wTuvp_L1",
+    "W/R": "R",
+    "descripton": "wTuvp_L1",
+    "Unit": "1ms",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00C2",
+    "Variable": "wTovp_L1",
+    "W/R": "R",
+    "descripton": "wTovp_L1",
+    "Unit": "1ms",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00C3",
+    "Variable": "wTufp_L1",
+    "W/R": "R",
+    "descripton": "wTufp_L1",
+    "Unit": "1ms",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00C4",
+    "Variable": "wTofp_L1",
+    "W/R": "R",
+    "descripton": "wTofp_L1",
+    "Unit": "1ms",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00C5",
+    "Variable": "TestStep",
+    "W/R": "R",
+    "descripton": "TestStep",
+    "Unit": "1~8",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00C6",
+    "Variable": "OvpValue(Ovp(59.S2))",
+    "W/R": "R",
+    "descripton": "means test Ovp(59.S2)",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00C7",
+    "Variable": "OvpTime(Ovp(59.S2))",
+    "W/R": "R",
+    "descripton": "means test Uvp(27.S1)",
+    "Unit": "1ms",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00C8",
+    "Variable": "UvpValue(Uvp(27.S1))",
+    "W/R": "R",
+    "descripton": "means test Uvp(27.S2)",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00C9",
+    "Variable": "UvpTime(Uvp(27.S1))",
+    "W/R": "R",
+    "descripton": "means test Ofp(81>.S1)",
+    "Unit": "1ms",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00CA",
+    "Variable": "OfpValue(Ofp(81>.S1))",
+    "W/R": "R",
+    "descripton": "means test Ufp(81<.S1)",
+    "Unit": "0.01Hz",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "means test Ofp2(81>.S2)",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "means test Ufp2(81<.S2)",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "means test Ovp_10(59.S1)",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "means success",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "SelfTest_Time:the remaining time of each test",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x00CB",
+    "Variable": "OfpTime(Ofp(81>.S1))",
+    "W/R": "R",
+    "descripton": "means test Ufp(81<.S1)",
+    "Unit": "1ms",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00CC",
+    "Variable": "UfpValue(Ufp(81<.S1))",
+    "W/R": "R",
+    "descripton": "means test Ofp2(81>.S2)",
+    "Unit": "0.01Hz",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00CD",
+    "Variable": "UfpTime(Ufp(81<.S1))",
+    "W/R": "R",
+    "descripton": "means test Ufp2(81<.S2)",
+    "Unit": "1ms",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00CE",
+    "Variable": "SelfTestOvp10mAvgVal",
+    "W/R": "R",
+    "descripton": "means test Ovp_10(59.S1)",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "(Ovp_10(59.S1))",
+    "W/R": "",
+    "descripton": "means success",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x00CF",
+    "Variable": "SelfTestOvp10mAvgTime",
+    "W/R": "R",
+    "descripton": "SelfTest_Time:the remaining time of each test",
+    "Unit": "1S",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "(Ovp_10(59.S1))",
+    "W/R": "",
+    "descripton": "32A~100A",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x00D0",
+    "Variable": "SelfTestOfpVal_Restrictive",
+    "W/R": "R",
+    "descripton": "",
+    "Unit": "0.01Hz",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "(Ofp2(81>.S2))",
+    "W/R": "",
+    "descripton": "",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x00D1",
+    "Variable": "SelfTestOfpTime_Restrictive",
+    "W/R": "R",
+    "descripton": "",
+    "Unit": "1ms",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "(Ofp2(81>.S2))",
+    "W/R": "",
+    "descripton": "",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x00D2",
+    "Variable": "SelfTestUfpVal_Restrictive",
+    "W/R": "R",
+    "descripton": "",
+    "Unit": "0.01Hz",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "(Ufp2(81<.S2))",
+    "W/R": "",
+    "descripton": "",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x00D3",
+    "Variable": "SelfTestUfpTime_Restrictive",
+    "W/R": "R",
+    "descripton": "",
+    "Unit": "1ms",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "(Ufp2(81<.S2))",
+    "W/R": "",
+    "descripton": "",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x00D4",
+    "Variable": "SelfTest_UvpRestrictive_Val",
+    "W/R": "R",
+    "descripton": "",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "(Uvp(27.S2))",
+    "W/R": "",
+    "descripton": "",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x00D5",
+    "Variable": "SelfTest_UvpRestrictive_Time",
+    "W/R": "R",
+    "descripton": "",
+    "Unit": "1ms",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "(Uvp(27.S2))",
+    "W/R": "",
+    "descripton": "",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x00D6",
+    "Variable": "SelfTest_Time",
+    "W/R": "R",
+    "descripton": "",
+    "Unit": "1s",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00D7",
+    "Variable": "MainBreakerCurrentLimit",
+    "W/R": "R",
+    "descripton": "",
+    "Unit": "1A",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00D8",
+    "Variable": "PfLockInPoint",
+    "W/R": "R",
+    "descripton": "Set Power Factor parameter",
+    "Unit": 105,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "",
+    "Unit": "~110",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x00D9",
+    "Variable": "PfLockOutPoint",
+    "W/R": "R",
+    "descripton": "Set Power Factor parameter",
+    "Unit": "98~90",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00DA",
+    "Variable": "wInverter_OutPut_Switch",
+    "W/R": "R",
+    "descripton": "1=ON;0=Off",
+    "Unit": "0/1",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00DB",
+    "Variable": "OFPL_Point",
+    "W/R": "R",
+    "descripton": "Overfrequency load reduction point.",
+    "Unit": "0.01Hz",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00DC",
+    "Variable": "OFPL_SetRate",
+    "W/R": "R",
+    "descripton": "Overfrequency load reduction rate.",
+    "Unit": "1%",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00DD",
+    "Variable": "OFPL_DelayTime",
+    "W/R": "R",
+    "descripton": "Overfrequency load reduction  delay time.",
+    "Unit": "1ms",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00DE",
+    "Variable": "QuVrateUp",
+    "W/R": "R",
+    "descripton": "Q(U) curve up set point",
+    "Unit": "1%",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00DF",
+    "Variable": "QuVrateLow",
+    "W/R": "R",
+    "descripton": "Q(U) curve low set point",
+    "Unit": "1%",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00E0",
+    "Variable": "UserPassword",
+    "W/R": "R",
+    "descripton": "UserPassword",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00E1",
+    "Variable": "AdvancePassword",
+    "W/R": "R",
+    "descripton": "AdvancePassword",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00E2",
+    "Variable": "UFPL_Point",
+    "W/R": "R",
+    "descripton": "Underfrequency load increase point.",
+    "Unit": "0.01Hz",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00E3",
+    "Variable": "UFPL_SetRate",
+    "W/R": "R",
+    "descripton": "Underfrequency load increase rate.",
+    "Unit": "1%",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00E4",
+    "Variable": "UFPL_DelayTime",
+    "W/R": "R",
+    "descripton": "Underfrequency load increase",
+    "Unit": "1ms",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "delay time.",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x00E5",
+    "Variable": "OFPL_CurveType",
+    "W/R": "R",
+    "descripton": "Overfrequency load reduction curve type selction.",
+    "Unit": "0/1",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "0:Symmetry curve 1:Asymmetry curve",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x00E6",
+    "Variable": "OFPL_Tstop",
+    "W/R": "R",
+    "descripton": "Overfrequency load reduction asymmetry curve stop time.",
+    "Unit": "1s",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00E7",
+    "Variable": "OFPL_RemovePoint",
+    "W/R": "R",
+    "descripton": "Overfrequency load reduction frequency remove point.",
+    "Unit": "0.01Hz",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00E8",
+    "Variable": "UFPL_RemovePoint",
+    "W/R": "R",
+    "descripton": "Underfrequency load increase frequency remove point.",
+    "Unit": "0.01Hz",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00E9",
+    "Variable": "REV",
+    "W/R": "R",
+    "descripton": "REV",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Length": 10
+  },
+  {
+    "Register": "~0x00F2",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x00F3",
+    "Variable": "wPowerLimitGra",
+    "W/R": "R",
+    "descripton": "wPowerLimitGra",
+    "Unit": 0.0001,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00F4",
+    "Variable": "PuFunc_VoltResponse_V2",
+    "W/R": "R",
+    "descripton": "PuFunction Voltage",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00F5",
+    "Variable": "PuFunc_VoltResponse_V3",
+    "W/R": "R",
+    "descripton": "",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00F6",
+    "Variable": "PuFunc_VoltResponse_V4",
+    "W/R": "R",
+    "descripton": "",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00F7",
+    "Variable": "VoltResponse_Ratio1 PuFunc_VoltResponse_V1",
+    "W/R": "R",
+    "descripton": "Volt-var Mode",
+    "Unit": 0.01,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00F8",
+    "Variable": "VoltResponse_Ratio4",
+    "W/R": "R",
+    "descripton": "Parameter",
+    "Unit": 0.01,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "PuFunc_3Tau",
+    "W/R": "",
+    "descripton": "",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x00F9",
+    "Variable": "PUFuncEnable",
+    "W/R": "R",
+    "descripton": "0:disable 1:enable",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00FA",
+    "Variable": "Qpower_set",
+    "W/R": "R",
+    "descripton": "Qpower_set",
+    "Unit": "1Var",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00FB",
+    "Variable": "bQpower_set_Max",
+    "W/R": "R",
+    "descripton": "bQpower_set_Max",
+    "Unit": "1Var",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00FC",
+    "Variable": "bQpower_set_Min",
+    "W/R": "R",
+    "descripton": "bQpower_set_Min",
+    "Unit": "1Var",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x00FD",
+    "Variable": "REV",
+    "W/R": "R",
+    "descripton": "-",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Length": 5
+  },
+  {
+    "Register": "~0x0101",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x0102",
+    "Variable": "DRMFunctionEnable",
+    "W/R": "R",
+    "descripton": "0:disable 1:enable",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0103",
+    "Variable": "REV",
+    "W/R": "R",
+    "descripton": "-",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0104",
+    "Variable": "wShadowFixFuncEnable",
+    "W/R": "R",
+    "descripton": "0:Off, 1:Low, 2:Middle, 3:Hight",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0105",
+    "Variable": "MachineType_X1orX3",
+    "W/R": "R",
+    "descripton": "1:X1 3:X3",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0106",
+    "Variable": "PhasePowerBalance(X3)",
+    "W/R": "R",
+    "descripton": "0:disable 1:enable",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0107",
+    "Variable": "wMachineStyle",
+    "W/R": "R",
+    "descripton": "0:X-Hybrid 1:X-FIT",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0108",
+    "Variable": "MeterFunction",
+    "W/R": "R",
+    "descripton": "0:disable 1:enable",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0109",
+    "Variable": "Meter1ID",
+    "W/R": "R",
+    "descripton": "Meter1ID 1~200",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x010A",
+    "Variable": "Meter2ID",
+    "W/R": "R",
+    "descripton": "Meter2ID 1~200",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x010B",
+    "Variable": "DirectionMeterCT1",
+    "W/R": "R",
+    "descripton": "0:Positive 1:Negative",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x010C",
+    "Variable": "DirectionMeter2",
+    "W/R": "R",
+    "descripton": "0:Positive 1:Negative",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x010D",
+    "Variable": "REV",
+    "W/R": "R",
+    "descripton": "-",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 6
+  },
+  {
+    "Register": "~0x0110",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x0111",
+    "Variable": "DischCutOffPoint_DifferentEN",
+    "W/R": "R",
+    "descripton": "Whether Lead-acid Battery discharge cut-off voltage point is enable.",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "",
+    "Variable": "",
+    "W/R": "",
+    "descripton": "0:disable 1:enable",
+    "Unit": "",
+    "Data format": "",
+    "Length": ""
+  },
+  {
+    "Register": "0x0112",
+    "Variable": "REV",
+    "W/R": "R",
+    "descripton": "-",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0113",
+    "Variable": "DischCutOffVoltage_GridMode",
+    "W/R": "R",
+    "descripton": "Lead-acid Battery discharge cut-off voltage in on-grid mode",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0114",
+    "Variable": "REV",
+    "W/R": "R",
+    "descripton": "-",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0115",
+    "Variable": "Meter/CT select",
+    "W/R": "R",
+    "descripton": "0:Meter 1:CT",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0116",
+    "Variable": "FVRT_Function",
+    "W/R": "R",
+    "descripton": "0:Disable 1:Enable",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0117",
+    "Variable": "FVRT_VacUpper",
+    "W/R": "R",
+    "descripton": "If FVRT_Function is enable, FVRT Vac upper limit is available.",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0118",
+    "Variable": "FVRT_VacLower",
+    "W/R": "R",
+    "descripton": "If FVRT_Function is enable, FVRT Vac lower limit is available.",
+    "Unit": "0.1V",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x0119",
+    "Variable": "REV",
+    "W/R": "R",
+    "descripton": "-",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x011A",
+    "Variable": "REV",
+    "W/R": "R",
+    "descripton": "-",
+    "Unit": "-",
+    "Data format": "uint16",
+    "Length": 1
+  },
+  {
+    "Register": "0x011C",
+    "Variable": "bPVConnectionMode(X1)",
+    "W/R": "R",
+    "descripton": "PV connection.",
+    "Unit": 1,
+    "Data format": "uint16",
+    "Length": 1
+  }
+]
